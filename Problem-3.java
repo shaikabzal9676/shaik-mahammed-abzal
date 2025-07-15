@@ -7,7 +7,6 @@ public class Problem3 {
         System.out.print("Enter a number: ");
         int a = sc.nextInt();
 
-        // Determine how many odd numbers to print
         int count = (a % 2 == 0) ? a - 1 : a;
 
         for (int i = 0; i < count; i++) {
